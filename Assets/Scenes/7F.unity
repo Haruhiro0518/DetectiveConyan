@@ -8698,8 +8698,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 785295663029633140, guid: bdfa81c386604914f878dcd1b72fccb0, type: 3}
       propertyPath: m_text
-      value: "\u3053\u306E\u30D5\u30ED\u30A2\u306E\u30B4\u30FC\u30B9\u30C8\u30D6\u30ED\u30C3\u30AF\u306E\u7DCF\u6570\u306F\n\u30B3\u30A6\u30E2\u30EA\u306E\u7DCF\u6570\u3088\u308A\u3082\n\u591A\u3044\uFF1F\u5C11\u306A\u3044\uFF1F\n\nA
-        : \u591A\u3044    B : \u5C11\u306A\u3044    C : \u540C\u3058"
+      value: "\u3053\u306E\u30D5\u30ED\u30A2\u306E\u30B3\u30A6\u30E2\u30EA\u306E\u7DCF\u6570\u306F?\n\nA
+        : 9    B : 10    C : 11"
       objectReference: {fileID: 0}
     - target: {fileID: 1132425397269376268, guid: bdfa81c386604914f878dcd1b72fccb0, type: 3}
       propertyPath: mainSystem
@@ -8793,6 +8793,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7222135471702044919, guid: bdfa81c386604914f878dcd1b72fccb0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7629110460511737567, guid: bdfa81c386604914f878dcd1b72fccb0, type: 3}
       propertyPath: m_Name
       value: QuestionPanel
@@ -8803,7 +8807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8489813415140103865, guid: bdfa81c386604914f878dcd1b72fccb0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
